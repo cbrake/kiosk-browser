@@ -1,0 +1,11 @@
+[Unit]
+Description=QTWebengine  Kiosk Browser
+
+[Service]
+EnvironmentFile=/etc/default/kiosk-browser
+ExecStart=/usr/bin/kiosk-browser
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+

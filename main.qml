@@ -4,11 +4,11 @@ import QtWebEngine 1.0
 
 Window {
     visible: true
-    width: 640
-    height: 480
-    title: qsTr("Hello World")
+    width: 480
+    height: 320
+    title: qsTr("Kiosk Browser")
     WebEngineView {
         anchors.fill: parent
-        url: "https://portal.pointwatch.com"
+        url: "http://localhost"
     }
 }
