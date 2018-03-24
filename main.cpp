@@ -72,7 +72,7 @@ int main(int argc, char * argv[])
     } else if (positionalArguments.size() == 1)
         url = QUrl::fromUserInput(positionalArguments.at(0));
     else
-        url = QUrl("https://portal.pointwatch.com");
+        url = QUrl("http://localhost:8090");
 
     if (!url.isValid()) {
         showHelp(commandLineParser, QString("%1 is not a valid url.").arg(positionalArguments.at(0)));
