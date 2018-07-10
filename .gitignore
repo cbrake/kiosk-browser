@@ -1,1 +1,6 @@
 *.user
+*.o
+Makefile
+moc*
+.qmake*
+kiosk-browser
